@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {   ofstream fout;
     fout.open("file.txt");
-	for(int i=1000;i>=0;i--){
-		fout<<"hello";
+	for(int i=10000000;i>=0;i--){
+		fout<<"Hello";
 	}
 }
