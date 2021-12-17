@@ -1,4 +1,6 @@
+name: Autoformat
 on: 
+   push:
    workflow_dispatch:
 jobs:
   autoformat_job:
@@ -13,7 +15,7 @@ jobs:
     - name: Autocommit
       if: steps.format.outputs.status == 'changed'
       run: |
-        git config --global user.name 'auto-format'
-        git config --global user.email 'auto-format@auto.format'
+        git config --global user.name 'Aatmaj-Zephyr'
+        git config --global user.email 'Aatmaj-Zephyr@users.noreply.github.com'
         git commit -am "Autoformat"
         git push
