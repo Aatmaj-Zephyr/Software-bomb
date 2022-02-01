@@ -1,3 +1,4 @@
+//Software bomb! Run at your own risk
 #include <fstream>
 #include <iostream>
 #include <stdlib.h>
